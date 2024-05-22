@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>선호도 조사 시스템</title>
+	<style>
+		table,tr,td{
+			border: 1px solid black;
+		}
+		table{
+			width: 300px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<form action="result.jsp" method="post">
+
+
+        <div id="title">
+            <h1 align="center">선호도 조사 시스템</h1>
+        </div>
+		<br>
+			<table align="center">
+				<tr>
+					<td align="center">
+						<p>이름</p>
+					</td>
+					<td>
+						<p>박병관</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>좋아하는 과일</p>
+					</td>
+					<td> 사과<input type='checkbox' name='fruits' value='사과' />
+						멜론<input type='checkbox' name='fruits' value='멜론' />
+						수박<input type='checkbox' name='fruits' value='수박' />
+					</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td> <input type="submit" value="전송"> </td>
+				</tr>
+			</table>
+	</form>
+</body>
+
+</html>
