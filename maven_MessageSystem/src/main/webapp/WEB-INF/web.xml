@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SelectAllprogram</servlet-name>
+  	<display-name>SelectAllprogram</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.SelectAllprogram</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DelMessageService</servlet-name>
+  	<display-name>DelMessageService</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.DelMessageService</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DelmessageAllService</servlet-name>
+  	<display-name>DelmessageAllService</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.DelmessageAllService</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WriterService</servlet-name>
+  	<display-name>WriterService</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.WriterService</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FrontContlroller</servlet-name>
+  	<display-name>FrontContlroller</display-name>
+  	<description></description>
+  	<servlet-class>frontcontroller.FrontContlroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SelectAllprogram</servlet-name>
+  	<url-pattern>/SelectAllprogram</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DelMessageService</servlet-name>
+  	<url-pattern>/DelMessageService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DelmessageAllService</servlet-name>
+  	<url-pattern>/DelmessageAllService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WriterService</servlet-name>
+  	<url-pattern>/WriterService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FrontContlroller</servlet-name>
+  	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+</web-app>
